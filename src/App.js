@@ -4,7 +4,7 @@ import MultiStepDemo from "./Multistep";
 
 export default function App() {
   return (
-    <div class="container mt-4">
+    <div className="container mt-4">
       <MultiStepDemo />
     </div>
   );

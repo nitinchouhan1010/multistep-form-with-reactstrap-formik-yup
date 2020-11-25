@@ -54,7 +54,6 @@ const MultiStepDemo = () => {
 
   return (
     <div>
-      {console.log(activeStep)}
       {activeStep === steps.length ? (
         <Step4 />
       ) : (

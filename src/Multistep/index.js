@@ -75,7 +75,6 @@ const MultiStepDemo = () => {
                 <Button disabled={isSubmitting} type="submit">
                   {isLastStep ? "Finish" : "Next"}
                 </Button>
-                {isSubmitting && <Progress value={24} />}
               </div>
             </Form>
           )}
